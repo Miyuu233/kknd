@@ -28,5 +28,5 @@ python3 main.py
 
 ## 通知格式
 ```
-[2024-01-01 12:34:56] @username is now Online/Offline
+[2024-01-01 12:34:56] @username Online/Offline
 ```

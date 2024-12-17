@@ -48,7 +48,7 @@ async def monitor_users_status():
                     if current_status != previous_statuses[username]:
                         previous_statuses[username] = current_status
                         cst_time = get_cst_time()
-                        message = f"[{cst_time}] @{username} is now {current_status}."
+                        message = f"[{cst_time}] @{username} {current_status}."
                         send_bot_message(BOT_CHAT_ID, message)
                         print(f"[INFO] Notification sent: {message}")
 
